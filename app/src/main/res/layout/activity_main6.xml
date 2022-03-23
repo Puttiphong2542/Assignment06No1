@@ -5,15 +5,15 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="#BEEFEA"
-    tools:context=".MainActivity">
+    tools:context=".MainActivity6">
 
     <TextView
-        android:id="@+id/textView"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginStart="72dp"
+        android:id="@+id/textView6"
+        android:layout_width="376dp"
+        android:layout_height="60dp"
+        android:layout_marginStart="16dp"
         android:layout_marginTop="148dp"
-        android:text="OSI Layer มีทั้งหมดกี่ Layer"
+        android:text="IP Address 192.168.1.21/24 จัดเป็น IP คลาสใด"
         android:textAlignment="center"
         android:textSize="24sp"
         android:textStyle="bold"
@@ -21,50 +21,50 @@
         app:layout_constraintTop_toTopOf="parent" />
 
     <Button
-        android:id="@+id/but1"
-        android:layout_width="383dp"
-        android:layout_height="64dp"
-        android:layout_marginStart="16dp"
-        android:layout_marginTop="87dp"
-        android:backgroundTint="#EF8B8B"
-        android:text="5 Layer"
-        android:textSize="20sp"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/textView" />
-
-    <Button
-        android:id="@+id/but2"
-        android:layout_width="383dp"
-        android:layout_height="64dp"
-        android:layout_marginStart="16dp"
-        android:layout_marginTop="22dp"
-        android:backgroundTint="#EF8B8B"
-        android:text="6 Layer"
-        android:textSize="20sp"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/but1" />
-
-    <Button
-        android:id="@+id/but3"
+        android:id="@+id/but16"
         android:layout_width="383dp"
         android:layout_height="64dp"
         android:layout_marginStart="16dp"
         android:layout_marginTop="26dp"
         android:backgroundTint="#EF8B8B"
-        android:text="7 Layer"
+        android:text="Class D"
         android:textSize="20sp"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/but2" />
+        app:layout_constraintTop_toBottomOf="@+id/but19" />
 
     <Button
-        android:id="@+id/but4"
+        android:id="@+id/but17"
         android:layout_width="383dp"
         android:layout_height="64dp"
         android:layout_marginStart="16dp"
-        android:layout_marginTop="22dp"
+        android:layout_marginTop="25dp"
         android:backgroundTint="#EF8B8B"
-        android:text="8 Layer"
+        android:text="Class B"
         android:textSize="20sp"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/but3" />
+        app:layout_constraintTop_toBottomOf="@+id/but18" />
+
+    <Button
+        android:id="@+id/but18"
+        android:layout_width="383dp"
+        android:layout_height="64dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="51dp"
+        android:backgroundTint="#EF8B8B"
+        android:text="Class A"
+        android:textSize="20sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView6" />
+
+    <Button
+        android:id="@+id/but19"
+        android:layout_width="383dp"
+        android:layout_height="64dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="25dp"
+        android:backgroundTint="#EF8B8B"
+        android:text="Class C"
+        android:textSize="20sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/but17" />
 </androidx.constraintlayout.widget.ConstraintLayout>

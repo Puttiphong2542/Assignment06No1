@@ -6,30 +6,31 @@ import android.os.Bundle
 import android.widget.Toast
 import android.widget.Button
 import kotlinx.android.synthetic.main.activity_main.*
+import kotlinx.android.synthetic.main.activity_main5.*
 
-var result = "result"
-class MainActivity : AppCompatActivity() {
+var result3 = "result3"
+class MainActivity5 : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        setContentView(R.layout.activity_main)
-        but1.setOnClickListener {
+        setContentView(R.layout.activity_main5)
+        but14.setOnClickListener {
             val intent = Intent(this,MainActivity2::class.java)
             intent.putExtra(result,"ผิดครับ")
             startActivity(intent)
         }
-        but2.setOnClickListener {
+        but13.setOnClickListener {
             val intent = Intent(this,MainActivity2::class.java)
             intent.putExtra(result,"ผิดครับ")
             startActivity(intent)
         }
-        but3.setOnClickListener {
-            val intent = Intent(this,MainActivity3::class.java)
+        but15.setOnClickListener {
+            val intent = Intent(this,MainActivity2::class.java)
+            intent.putExtra(result,"ผิดครับ")
+            startActivity(intent)
+        }
+        but12.setOnClickListener {
+            val intent = Intent(this,MainActivity6::class.java)
             intent.putExtra(result,"ถูกครับ")
-            startActivity(intent)
-        }
-        but4.setOnClickListener {
-            val intent = Intent(this,MainActivity2::class.java)
-            intent.putExtra(result,"ผิดครับ")
             startActivity(intent)
         }
     }
